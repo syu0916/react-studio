@@ -1,9 +1,24 @@
 /* Add styling for your page here */
 
 .App {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
-.BakeryItem {
-  
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+.bakery-item{
+    width: 25rem;
+
 }
+
+
+
+  div {
+    display: flex;
+    flex-direction: column;
+  }
